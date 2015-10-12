@@ -20,7 +20,7 @@
   "author": "Salesforce",
   "dependencies": {
     "@salesforce-ux/design-system-utils": "0.7.1",
-    "@salesforce-ux/design-tokens": "1.2.0",
+    "design-tokens": "1.2.0",
     "@salesforce-ux/icons": "3.1.0"
   },
   "devDependencies": {
