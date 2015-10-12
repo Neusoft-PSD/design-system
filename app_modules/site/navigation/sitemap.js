@@ -18,9 +18,9 @@ export default new SitemapRouter().map(function () {
   this.route('home', { path: '/' });
 
   this.resource('getting-started', function () {
-    this.route('visualforce');
+    //this.route('visualforce');
     this.route('lightning');
-    this.route('heroku');
+    //this.route('heroku');
     this.route('getting-started-node-js');
   });
 
@@ -66,7 +66,7 @@ export default new SitemapRouter().map(function () {
   });
 
   this.route('faq');
-  this.route('voice-and-tone');
+  //this.route('voice-and-tone');
   this.route('release-notes');
   this.route('examples');
 

@@ -276,8 +276,7 @@ export default React.createClass({
     return (
       <header className={pf('site-banner')} role="banner">
         <Link to="/">
-          <span className={pf('site-logo')}>Salesforce</span>
-          Design System
+          <span className={pf('site-logo')}>Neusoft PSD Platform</span>
         </Link>
         <div className={pf('site-skip-content')}>
           <a href="#navigation">Skip to Navigation</a>

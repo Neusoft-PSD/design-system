@@ -12,7 +12,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 export default {
   abbreviatedName: 'SLDS',
   cssPrefix: 'slds-',
-  displayName: 'Lightning Design System',
+  displayName: 'Lightning Design System (Gavin Forked)',
   filenamePrefix: 'slds',
   localyticsHostWhitelist: [
     'getslds.com',
