@@ -46,7 +46,7 @@ class Overview extends React.Component {
       {/* Hero */}
       <header className={pf('site-masthead--landing p-around--xx-large container--buffer')}>
         <h1 className={pf('site-text-heading--large')}>
-          Lightning <span className="text-no-wrap">Design System</span>
+          NextUI System <span className="text-no-wrap">Live Style Guides</span>
         </h1>
         <h2 className={pf('site-text-heading--medium m-bottom--xx-large')}>
           Create the world’s best enterprise app experiences.
