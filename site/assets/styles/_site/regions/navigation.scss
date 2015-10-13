@@ -82,7 +82,9 @@
     // TODO: refactor to use scrollable when theme is separated
     @include scrollbar;
     position: fixed;
-    top: $height-banner;
+    //top: $height-banner;
+    top: $site-height-masthead-header;
+
     bottom: 0;
     border-right: $border-width-thin solid $color-border-separator;
     padding-top: 0;

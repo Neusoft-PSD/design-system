@@ -64,7 +64,7 @@ function getCategories () {
         return `icon-${sprinteName}-${symbolName}`;
       },
       description: `Actions can be seen throughout the interface and represent actions a user can take on any given screen.`,
-      props: require('@salesforce-ux/design-tokens/dist/bg-actions.common.js')
+      props: require('neusoft-psd-ux_design-tokens/dist/bg-actions.common.js')
     }),
 
     custom: _.merge({}, _category, {
@@ -72,7 +72,7 @@ function getCategories () {
         return `icon-${_.kebabCase(symbolName)}`;
       },
       description: `Custom icons are available for the identity of user created objects.`,
-      props: require('@salesforce-ux/design-tokens/dist/bg-custom.common.js')
+      props: require('neusoft-psd-ux_design-tokens/dist/bg-custom.common.js')
     }),
 
     doctype: _.merge({}, _category, {
@@ -87,7 +87,7 @@ function getCategories () {
         return `icon-${sprinteName}-${symbolName}`;
       },
       description: `Standard icons represent entities and objects within Salesforce.`,
-      props: require('@salesforce-ux/design-tokens/dist/bg-standard.common.js')
+      props: require('neusoft-psd-ux_design-tokens/dist/bg-standard.common.js')
     }),
 
     utility: _.merge({}, _category, {

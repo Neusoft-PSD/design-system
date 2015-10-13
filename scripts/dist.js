@@ -40,7 +40,10 @@ var through = require('through2');
 
 var globals = require('../app_modules/global');
 var MODULE_NAME = globals.moduleName;
-var DESIGN_TOKENS_MODULE_NAME = '@salesforce-ux/design-tokens';
+
+//var DESIGN_TOKENS_MODULE_NAME = '@salesforce-ux/design-tokens';
+var DESIGN_TOKENS_MODULE_NAME = 'neusoft-psd-ux_design-tokens';
+
 var DESIGN_TOKENS_IMPORT_NAME = '../node_modules/' + DESIGN_TOKENS_MODULE_NAME;
 var PRESERVE_COMMENTS_CONTAINING = /(normalize|http|https|license|flag)/ig;
 

@@ -1,7 +1,7 @@
 {
   "name": "design-system",
   "version": "0.9.2",
-  "description": "Salesforce Lightning Design System",
+  "description": "Neusoft PSD UX Design System",
   "license": "SEE LICENSE IN README.md",
   "scripts": {
     "postinstall": "./scripts/npm/postinstall.sh",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:salesforce-ux/design-system.git"
+    "url": "git@github.com:Neusoft-PSD/design-system.git"
   },
-  "author": "Salesforce",
+  "author": "Neusoft-PSD",
   "dependencies": {
     "@salesforce-ux/design-system-utils": "0.7.1",
-    "design-tokens": "1.2.0",
+    "neusoft-psd-ux_design-tokens": "1.2.0-poc1",
     "@salesforce-ux/icons": "3.1.0"
   },
   "devDependencies": {

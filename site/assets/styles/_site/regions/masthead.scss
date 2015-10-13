@@ -9,7 +9,9 @@
 
 .site-masthead {
   padding: $spacing-medium $spacing-x-large;
-  background-color: $color-background-alt-inverse;
+  //background-color: $color-background-alt-inverse;
+  background-color: $color-brand;
+
   color: $color-text-inverse;
 
   .#{$css-prefix}breadcrumb a {

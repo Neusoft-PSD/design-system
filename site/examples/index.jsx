@@ -13,7 +13,7 @@ import React from 'react';
 import PageBody from 'app_modules/site/components/page/body';
 import _ from 'lodash';
 import ui from '.generated/ui';
-import forceBase from '@salesforce-ux/design-tokens/dist/force-base.common';
+import forceBase from 'neusoft-psd-ux_design-tokens/dist/force-base.common';
 
 require.context = require.context || function() { return require; };
 const requireExample = require.context('ui', true, /index\.react\.example\.jsx$/);
