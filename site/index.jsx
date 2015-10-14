@@ -64,11 +64,14 @@ class Overview extends React.Component {
       <div className={pf('container--buffer container--large')}>
       {/* Grid */}
       <section className={pf('site-grid--landing p-vertical--xx-large site-text-longform')}>
+        {/* damn the GFW
         <div className="site-video-container">
           <div className="site-video">
             <iframe src="https://www.youtube.com/embed/inqe8D1XwrA?showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
+         */}
+
         <ul className={pf('grid wrap grid--pull-padded-large site-grid--landing-primary')}>
           <li className={pf('col--padded-large p-vertical--xx-large clearfix')}>
             <p className={pf('size--1-of-1 medium-size--1-of-2 float--right')}>
