@@ -10,10 +10,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 */
 
 export default {
-  abbreviatedName: 'SLDS',
-  cssPrefix: 'slds-',
-  displayName: 'Lightning Design System (Gavin Forked)',
-  filenamePrefix: 'slds',
+  abbreviatedName: 'NUI',
+  cssPrefix: 'nui-',
+  displayName: 'NextUI Style Guides',
+  filenamePrefix: 'nui',
   localyticsHostWhitelist: [
     'getslds.com',
     'www.getslds.com',
@@ -32,8 +32,8 @@ export default {
     { version: '0.9.0', url: 'https://login.salesforce.com/packaging/installPackage.apexp?p0=04t61000000IrV0' },
     { version: '0.8.0', url: 'https://login.salesforce.com/packaging/installPackage.apexp?p0=04t61000000DVio' }
   ],
-  moduleName: 'salesforce-lightning-design-system',
-  resetWrappingClass: '.slds',
+  moduleName: 'neusoft-platform-style-guides',
+  resetWrappingClass: '.nui',
   zipName: function(version) {
     return this.moduleName + '-' + version + '.zip';
   },

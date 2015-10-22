@@ -19,7 +19,7 @@ const pf = componentUtil.prefix;
 export default (
   <PageBody anchorTitle="Design" contentClassName={pf('site-design site-design-layout')}>
     <div className={pf('container--medium')}>
-      <p className="site-text-introduction">The Lightning Design System reflects the patterns and components that underpin the Salesforce product. These patterns and components provide a unified language and consistent look and feel when designing apps and products within the Salesforce ecosystem.</p>
+      <p className="site-text-introduction">The NextUI Style Guides reflects the patterns and components that underpin the Salesforce product. These patterns and components provide a unified language and consistent look and feel when designing apps and products within the Salesforce ecosystem.</p>
       <h2 className="site-text-heading--large">Design Principles</h2>
       <p><strong>We constantly keep these core principles in mind when making design decisions at Salesforce, and we encourage you to adopt them as well.</strong></p>
       <ul className={pf('grid wrap grid--pull-padded-large text-align--center p-vertical--x-large')}>

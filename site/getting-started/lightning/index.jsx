@@ -26,11 +26,13 @@ const staticAssetName = g.filenamePrefix.toUpperCase() + versionNumber;
 const lightningTutorialUrl = 'https://developer.salesforce.com/trailhead/project/slds-lightning-components-workshop';
 
 export default (
-  <PageBody anchorTitle="Lightning Apps and Components" contentClassName={pf('container--medium')}>
+  <PageBody anchorTitle="NextUI Apps and Components" contentClassName={pf('container--medium')}>
 
     <p className="site-text-introduction">
-      The {g.displayName} is ready to use in your Lightning apps and components.
+      The {g.displayName} is ready to use in your NextUI apps and components.
     </p>
+
+    {/*
     <p>
       We have prepared a <a href={lightningTutorialUrl}>self-guided workshop</a> to guide you through installation, usage, and examples. It also includes details on how to use the Design System SVG spritemap icons in Lightning components.
     </p>
@@ -38,8 +40,10 @@ export default (
       You can also find a range of open-sourced sample components in the <a href="https://github.com/ForceDotComLabs/sldsx">ForceDotComLabs/sldsx</a> project on github.
     </p>
     <p>
-      Also, please note the following when using the Lightning Design System with Lightning components:
+      Also, please note the following when using the NextUI Style Guides with Lightning components:
     </p>
+     */}
+
     <ul className={pf('list--dotted')}>
       <li>When using the component sample code from this site, be sure to replace all static resource paths with the Lightning resource URL syntax, as summarized in the <a href="/faq#how-do-i-link-to-lightning-static-resources-like-stylesheets-and-icons">FAQ</a></li>
       <li>

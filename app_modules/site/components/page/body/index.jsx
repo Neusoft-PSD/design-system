@@ -279,7 +279,7 @@ export default React.createClass({
           <span className={pf('site-logo')}>Neusoft PSD Platform</span>
         </Link>
         <div>
-          <h2 className={pf('site-text-heading--medium')}>NextUI Live Style Guide</h2>
+          <h2 className={pf('site-text-heading--medium')}>NextUI Style Guides</h2>
         </div>
         <div className={pf('site-skip-content')}>
           <a href="#navigation">Skip to Navigation</a>

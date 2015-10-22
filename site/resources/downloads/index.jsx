@@ -53,10 +53,11 @@ export default (
     </p>
     <form action={links.zip.framework}>
       <button className={pf('button button--neutral')} onClick={()=>{logDownloadEvent('css'); }}>
-        Download Design System ({version.sldsVersion})
+        Download NextUI Style Guides ({version.sldsVersion})
       </button>
     </form>
 
+    {/*
     <h2 className="site-text-heading--large" id="unmanaged">Design System Unmanaged Package</h2>
 
     <p>
@@ -65,6 +66,8 @@ export default (
     <ul className={pf('list--dotted')}>
       {managedPackageUrls()}
     </ul>
+     */}
+
 
     <h2 className="site-text-heading--large" id="unmanaged">Design System Npm Module</h2>
 

@@ -23,6 +23,9 @@ import g from 'app_modules/global';
 let SHAPES_X = 1170;
 let SHAPES_Y = 330;
 
+const sldsHomelUrl = 'https://github.com/salesforce-ux/design-system';
+
+
 class Overview extends React.Component {
 
   constructor(props) {
@@ -45,11 +48,14 @@ class Overview extends React.Component {
     return (<div onMouseMove={this.onMouseMove.bind(this)}>
       {/* Hero */}
       <header className={pf('site-masthead--landing p-around--xx-large container--buffer')}>
-        <h1 className={pf('site-text-heading--large')}>
-          NextUI System <span className="text-no-wrap">Live Style Guides</span>
+        <h1 className={pf('site-text-heading--large text-no-wrap')}>
+          NextUI Style Guides
         </h1>
         <h2 className={pf('site-text-heading--medium m-bottom--xx-large')}>
-          Create the world’s best enterprise app experiences.
+          Create the world’s best enterprise app experiences based on react.js.
+        </h2>
+        <h2 className={pf('site-text-heading--medium m-bottom--xx-large')}>
+          forked from <a href={sldsHomelUrl}>Salesforce Lightning Design System.</a>
         </h2>
         <IfPrefs role="regular">
           <p className={pf('site-cta-buttons m-bottom--medium')}>

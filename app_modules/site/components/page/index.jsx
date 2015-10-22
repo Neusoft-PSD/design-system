@@ -54,7 +54,8 @@ class Page extends React.Component {
         <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
         {this.renderStyles()}
-        {this.renderLocalytics()}
+        {/* this.renderLocalytics() */}
+
       </head>
     );
   }
