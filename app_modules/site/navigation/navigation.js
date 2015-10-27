@@ -29,7 +29,7 @@ export default [
       // },
       {
         route: 'getting-started:lightning',
-        label: 'Lightning'
+        label: 'Overview'
       }
       // ,
       // {
