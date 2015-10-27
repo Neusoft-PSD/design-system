@@ -55,7 +55,7 @@ class Overview extends React.Component {
           Create the world’s best enterprise app experiences based on react.js.
         </h2>
         <h2 className={pf('site-text-heading--medium m-bottom--xx-large')}>
-          forked from <a href={sldsHomelUrl}>Salesforce Lightning Design System.</a>
+          Forked from <a href={sldsHomelUrl}>Salesforce Lightning Design System.</a>
         </h2>
         <IfPrefs role="regular">
           <p className={pf('site-cta-buttons m-bottom--medium')}>
